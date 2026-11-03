@@ -1,0 +1,1 @@
+{"bots":[{"current_request":"REQ-001","current_task":"（現在のタスク）","id":"coordinator","last_event":"2026-01-01T08:55:00+09:00","name":"調整役","note":"","role":"調整・検証","state":"working"},{"current_request":null,"current_task":"","id":"worker-1","last_event":null,"name":"実行役1","note":"","role":"実装","state":"idle"}],"updated_at":"2026-01-01T09:00:00+09:00"}

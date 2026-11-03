@@ -37,6 +37,17 @@ Bot が増えると、知識と文脈が各 Bot の中に閉じて、同じ説�
 
 どちらの設計も、単一の AI だけでも読み替えて使えます（各ドキュメント内の「単一の AI だけで使う場合」を参照）。
 
+## すぐ始める（雛形）
+
+前提知識なしで回し始められるよう、コピーして使える雛形を [templates/](templates/) に置いてあります。
+
+- [templates/REQUEST.md](templates/REQUEST.md)：依頼ファイルの雛形（目的・入力・出力形式・禁止事項）
+- [templates/RESULT.md](templates/RESULT.md)：返却ファイルの雛形（結論・詳細・不明／未確認）
+- [templates/BRAIN.md](templates/BRAIN.md)：共有ブレインの「地図」の雛形
+- [templates/bots.json](templates/bots.json) / [templates/requests.json](templates/requests.json)：台帳の最小例
+
+組み立て方は [docs/adaptation.md](docs/adaptation.md) の「最小構成」と「適応の手順」を参照してください。
+
 ## 運用の全体像
 
 ```text
