@@ -3,7 +3,7 @@
 # 手順: 判定レイヤーの使い方
 
 いつ使うか: 作業の流れで「分岐の判断」に当たったとき（振り分け、分類、スコア、進行可否）。誰が: 全 Bot。
-背景と問いの型（Choice / Score / Noul）は `../notes/jev-decision-layer.md`。
+背景と問いの型（Choice / Score / Noul）は、判定レイヤー設計（`../../workspace/decision-gate.md`）を参照。
 
 1. その分岐が「文章を書く仕事」ではなく「答えの決まった分かれ道」かを確かめる。書く仕事なら判定は使わない
 2. bot-workspace repo の `docs/DECISION-GATE.md` の判定カタログに、その分岐があるか確認する
