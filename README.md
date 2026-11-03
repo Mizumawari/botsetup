@@ -27,6 +27,13 @@ Bot が増えると、知識と文脈が各 Bot の中に閉じて、同じ説�
 
 詳細は [docs/research-playbook.md](docs/research-playbook.md) にあります。
 
+## 3. 検索基盤とリポジトリ
+
+- 検索基盤の使い分け（通常の Web 検索は自前ホストのメタ検索、X の投稿は Grok 側の x_search）は [docs/search.md](docs/search.md) にあります
+- 使っているリポジトリの一覧と中身（調整と台帳／共有ブレイン／公開まとめ）は [docs/repositories.md](docs/repositories.md) にあります
+
+どちらの設計も、単一の AI だけでも読み替えて使えます（各ドキュメント内の「単一の AI だけで使う場合」を参照）。
+
 ## 運用の全体像
 
 ```text
