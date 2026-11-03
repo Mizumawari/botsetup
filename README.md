@@ -32,6 +32,8 @@ Bot が増えると、知識と文脈が各 Bot の中に閉じて、同じ説�
 - 検索基盤の使い分け（通常の Web 検索は自前ホストのメタ検索、X の投稿は Grok 側の x_search）は [docs/search.md](docs/search.md) にあります
 - 使っているリポジトリの一覧と中身（調整と台帳／共有ブレイン／公開まとめ）は [docs/repositories.md](docs/repositories.md) にあります
 - アプリケーションに意図的に入れる表現技術（three.js、シェーダ、状態と見た目の対応づけ、描画予算）は [docs/visual-tech.md](docs/visual-tech.md) にあります
+- 他のアプリケーションへの適応のしかた（原則／型／中身の切り分けと適応手順）は [docs/adaptation.md](docs/adaptation.md) にあります
+- 単一システムの内部で複数のワーカーが動く構成への考慮（委譲の型、内部と外部の使い分け）は [docs/internal-multi-agent.md](docs/internal-multi-agent.md) にあります
 
 どちらの設計も、単一の AI だけでも読み替えて使えます（各ドキュメント内の「単一の AI だけで使う場合」を参照）。
 
