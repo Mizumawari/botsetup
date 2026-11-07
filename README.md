@@ -34,6 +34,7 @@ Bot が増えると、知識と文脈が各 Bot の中に閉じて、同じ説�
 - アプリケーションに意図的に入れる表現技術（three.js、シェーダ、状態と見た目の対応づけ、描画予算）は [docs/visual-tech.md](docs/visual-tech.md) にあります
 - 他のアプリケーションへの適応のしかた（原則／型／中身の切り分けと適応手順、「作る前に探す」導入前チェック）は [docs/adaptation.md](docs/adaptation.md) にあります
 - 単一システムの内部で複数のワーカーが動く構成への考慮（委譲の型、内部と外部の使い分け）は [docs/internal-multi-agent.md](docs/internal-multi-agent.md) にあります
+- エージェント自身の運用を改善対象にする型（改善ログと効果測定の閉ループ、較正指標、資産の棚卸しと退役、定期ジョブの暴走ガード、スキル化の検証ゲート）は [docs/improvement-loop.md](docs/improvement-loop.md) にあります
 
 どちらの設計も、単一の AI だけでも読み替えて使えます（各ドキュメント内の「単一の AI だけで使う場合」を参照）。
 
